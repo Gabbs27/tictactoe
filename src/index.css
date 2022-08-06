@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.rowStyle{
+  display: 'flex'
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.squareStyle {
+  width:'60px';
+  height : '60px';
+  background-color: '#ddd';
+  margin: '4px';
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  font-size: '20px';
+  color: 'white'
+}
+
+.boardStyle {
+  background-color: '#eee';
+  width: '208px';
+  align-items: 'center';
+  justify-content: 'center';
+  display: 'flex';
+  flex-wrap: 'wrap';
+ flex-direction: 'column';
+  border: '3px #eee solid'
+}
+
+.containerStyle {
+  display: 'flex';
+  align-items: 'center';
+  flex-direction: 'column'
+}
+
+.instructionsStyle {
+  margin-top: '5px';
+  margin-bottom: '5px';
+  font-Weight: 'bold';
+  font-size: '16px',
+}
+
+.buttonStyle {
+  margin-top: '15px';
+  margin-bottom: '16px';
+  width: '80px';
+  height: '40px';
+  background-color: '#8acaca';
+  color: 'white';
+  font-Size: '16px',
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.instruction {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button {
+  margin: 15px 0;
+  width: 80px;
+  height: 40px;
+  background-color: #8acaca;
+  color: white;
+  font-size: 16px;
+}
+
+.board {
+  background-color: #eee;
+  width: 208px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px #eee solid;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+}
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero--h1 {
+ padding-left: 45%;
+ margin-bottom: 100px;
+  
+}
+
+.hero--p {
+  margin-bottom:100px;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
